@@ -110,70 +110,62 @@ header .header {
 .header .items-icon i {
     font-size: 24px;
 }
-/*signup*/
-.rspass{
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
-    width: 60%;
-    height: 600px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    display: flex
-    
-}
-.rspass img{
-    float: left;
-    width: 50%;
-   
-}
-
-.rspass .rspass-logo img{
-    width: 105px;
-    height: 24px;
-    position: absolute;
-    left: 31.5%;
-    top: 22%;
-}
-.rspass .rspass-form{
-    width: 50%;
-    padding-left: 8%;
-    margin-top: 10%;
-   
-}
-.rspass .rspass-form h1{
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 44px;
-    margin-bottom: 3%;
-    gap: 16px;
-}
-.rspass .rspass-form form{
-    margin-top: 9%;
-}
-.rspass .rspass-form form .i1{
+/*cart*/
+.cart-shop{
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
     margin-bottom: 5%;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    width: 300px;
-    height: 40px;
-    background: #FFFF;
-    border: none;
-    border-bottom: 1px solid #E8ECEF;
-    outline: none;
-    padding: 8px;
-    font-size: 15px;
 }
 
-.rspass .rspass-form form .i2{
-    width: 300px;
-    height: 40px;
-    padding: 10px, 40px, 10px, 40px;
-    border-radius: 8px;
-    gap: 8px;
-    background: #141718;
-    color: #E8ECEF;
+.cart-shop .cart-title{
+    width: 80%;
+    margin-bottom: 5%;
 }
+.cart-shop .cart-title h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 54px;
+    color: #000000;
+    initial-letter: -1px;
+}
+.cart-shop .cart-title .cart-step {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.cart-shop .cart-title .cart-step .step{
+    width: 30%;
+    display: inline-block;
+}
+.cart-shop .cart-title .cart-step .step img{
+   display: inline-block; 
+   vertical-align: middle;
+   margin-right: 7%;
+   height: 42px;
+   width: 42px;
+}
+.cart-shop .cart-title .cart-step .step span{
+    font-display: var(--font-inter);
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+     vertical-align: middle;
+}
+.cart-shop .cart-title .cart-step .step span::after{
+    content: '';
+    display: block;
+    width: 15%;
+    height: 2px;
+    background-color: black; 
+    position: absolute;
+    top: 50%;
+    left: 22%;
+}
+.cart-shop .cart-title .cart-step .step2 span{
+    color: #6C7275;
 
-
+}
 /* footer */
 footer {
     background: var(--neutral-color-07);
