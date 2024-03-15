@@ -85,10 +85,6 @@ header .header {
     align-items: center;
 }
 
-.header .logo img {
-    /* width: 150px; */
-}
-
 .header .nav ul {
     display: flex;
     justify-content: center;
@@ -117,7 +113,7 @@ header .header {
 /*banner blog*/
 .banner{
     width: 80%;
-    margin-left: 10%;
+    margin-left: 11%;
 }
 .banner img{
     position: relative;
@@ -140,8 +136,127 @@ header .header {
     font-size: 20px;
 }
 /* blog*/
-.blog .blog-content{
+.blog{
     width: 80%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 14%;
+}
+.blog .blog-title {
+    width: 30%;
+   float: left;
+   margin-right: 20%;
+   margin-right: 30%;
+}
+.blog .blog-title a{
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 14px;
+    color: #121212;
+}
+.blog .blog-title .a1{
+    padding-right: 15%;
+    
+}
+.blog .blog-title .a1::after{
+    content: '';
+    display: block;
+    width: 3.5%;
+    height: 1.5px;
+    background-color: #807E7E; 
+    position: absolute;
+    top: 80%;
+    left: 13.9%;
+}
+.blog .blog-title .a2{
+    color: #807E7E;
+}
+.blog .blog-title-content{
+    width: 90%;
+    margin-left: 67%;
+}
+.blog .blog-title-content select{
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+
+}
+
+.blog .blog-title-content img{
+    padding-left: 3%;
+}
+.content{
+    margin-top: 4%;
+}
+.content .content-blog{
+    float: left;
+   margin-right: 2%;
+}
+.content .content-blog h3{
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.content .content-blog span{
+    font-family: var(--font-inter);
+    font-size: 12px;
+    color: #6C7275;
+}
+.content-two{
+    margin-top: 42%;
+}
+.content-two .content-blog{
+    float: left;
+   margin-right: 2%;
+}
+.content-two .content-blog h3{
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.content-two .content-blog span{
+    font-family: var(--font-inter);
+    font-size: 12px;
+    color: #6C7275;
+}
+.content-three{
+    margin-top: 80%;
+}
+.content-three .content-blog{
+    float: left;
+   margin-right: 2%;
+}
+.content-three .content-blog h3{
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.content-three .content-blog span{
+    font-family: var(--font-inter);
+    font-size: 12px;
+    color: #6C7275;
+}
+.button{
+    margin-top: 120%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+
+}
+.button input {
+    width: 163px;
+    height: 40px;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: 16px;
+    background: white;
+    border: 1px black solid;
+    padding: 6px, 40px, 6px, 40px;
+    gap: 8px;
+    border-radius: 80px;
 }
 .contact{
     width: 100%;
@@ -157,7 +272,7 @@ header .header {
 .contact .contact-content h1{
     font-weight: 500;
     position: absolute;
-   top: 68%;
+   top: 30%;
     left: 39%;
     font-size: 40px;
     
@@ -167,12 +282,12 @@ header .header {
     font-weight: 400;
     font-size: 18px;
     position: absolute;
-    top: 75%;
+    top: 45%;
     left: 37%;
 }
 .contact .contact-content form{
     position: absolute;
-    top: 80%;
+    top: 65%;
     left: 35%;
     display: flex;
 }
